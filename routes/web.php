@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Crida a un controlador amb GET
+Route::get("CU01","cu01@login");//controlador CU01 metode login
 
+//Crida a un controlador amb PET
+Route::post("CU01","cu01@login");//controlador CU01 metode login
 
 /*
 CU01
