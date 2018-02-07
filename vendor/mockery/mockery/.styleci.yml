@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 preset: psr2
 
 finder:
   not-name:
     - MockingParameterAndReturnTypesTest.php
     - SemiReservedWordsAsMethods.php
+=======
+preset: psr2
+
+finder:
+  not-name:
+    - MockingParameterAndReturnTypesTest.php
+    - SemiReservedWordsAsMethods.php
+>>>>>>> a7a2c5d5907ed52a2a6e992476b812ffa8afae2e
